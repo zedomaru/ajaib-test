@@ -1,24 +1,55 @@
-import logo from './logo.svg';
-import './App.css';
+import "./index.css";
+import "antd/dist/antd.css";
+import { Divider } from "antd";
+import Navbar from "./components/Navbar";
+import Table from "./components/Table";
+import { useState } from "react";
+import Context from "./context";
 
 function App() {
+  let RANDOM_USER_API = `https://randomuser.me/api/?results=100`;
+  const [columns, setColumns] = useState([]);
+  const [data, setData] = useState([]);
+  const [loading, setLoading] = useState(false);
+  const [apiURL, setApiURL] = useState(RANDOM_USER_API);
+  const [currentPage, setCurrentPage] = useState(1);
+  const [filter, setFilter] = useState({
+    keyword: "",
+    gender: "",
+    sortBy: "",
+    sortOrder: "",
+  });
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Context.Provider
+        value={{
+          data,
+          setData,
+          columns,
+          setColumns,
+          loading,
+          setLoading,
+          apiURL,
+          setApiURL,
+          RANDOM_USER_API,
+          setFilter,
+          filter,
+          currentPage,
+          setCurrentPage,
+        }}
+      >
+        {/* HEADER START*/}
+        {/* SEARCH */}
+        {/* FILTER */}
+        <Navbar />
+        {/* HEADER END*/}
+        <Divider />
+        {/* DATATABLE START*/}
+        <Table />
+        {/* DATATABLE END */}
+      </Context.Provider>
+    </>
   );
 }
 
