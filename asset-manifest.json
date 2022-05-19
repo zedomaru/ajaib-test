@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ajaib-test/static/css/main.655ae87e.css",
+    "main.js": "/ajaib-test/static/js/main.5a5dad10.js",
+    "static/js/787.cc58342a.chunk.js": "/ajaib-test/static/js/787.cc58342a.chunk.js",
+    "index.html": "/ajaib-test/index.html",
+    "main.655ae87e.css.map": "/ajaib-test/static/css/main.655ae87e.css.map",
+    "main.5a5dad10.js.map": "/ajaib-test/static/js/main.5a5dad10.js.map",
+    "787.cc58342a.chunk.js.map": "/ajaib-test/static/js/787.cc58342a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.655ae87e.css",
+    "static/js/main.5a5dad10.js"
+  ]
+}
