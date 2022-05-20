@@ -1,70 +1,51 @@
-# Getting Started with Create React App
+# Ajaib Front End Web Engineer Test
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was the test of Ajaib Front End Web Engineer.
 
-## Available Scripts
+## Project Description
 
-In the project directory, you can run:
+There are two parts of the test.
 
-### `npm start`
+1. Mini Questionnaire that I answered here in the readme
+2. Personal Project that you can be found [here](https://zedomaru.github.io/ajaib-test/)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Table of Contents
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. Explain how Object Oriented Programming works with a thorough understanding of the keyword this and the new keyword
+2. What is the new class syntax and how to create instance methods, class methods?
+3. Give an example of how to implement inheritance in ES2015 using extends and super
+4. Imagine refactoring an ES5 application to use ES2015, how would you go about it?
+5. Give an example of how you structure applications with design patterns using closure and modules
+6. What are your preferred ways of testing your web application?
+7. Which web server do you use? Why? Explain pros and cons of your choice.
+8. What is your preferred production deployment process?
+9. Give an example of clean README.md documentation.
 
-### `npm test`
+## Answer
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Object Oriented Programming is a object based approach on program. There are two main things on OOP which are object and class. Object is a data type that can have more than one key / property - value pair. And class is a blueprint for creating object. We can use keyword new to create an object instance. And we can use "this" to accessing or create property in class.
 
-### `npm run build`
+2. Instance method, we need to create an instance from a class in order to use its method, but class / static method we don't have to create an instance, we can directly use the method inside class (Class.MethodName). Class method created by adding static keyword in front of the method name ex: static run()
+   Example:
+   ![Inheritance](https://ibb.co/vHGsXZB)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. ![Inheritance](https://ibb.co/RTnKyGq)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+4. Before ES6 or ES2015 we use constructor function to define a class. So if I want to refactor ES5 application I think we can change the constructor function to class with constructor function as it constructor.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+5. ![Closure](https://ibb.co/1m5CwHh)
 
-### `npm run eject`
+6. I never did a testing before. But I heard about end to end testing using cypress and I'm curious about that.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+7. My last company use NGINX as the server, but I personally never did a server setup and I don't quite understand about it yet. Why NGINX or what's the pros and cons. But from what I know, when we request some data on the web, server will return the data we need as a response.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+8. Before production deployment we need to make sure the app run perfectly, and how can we do that, or how can we sure that the application is bug-free. In my opinion we must do a testing first. Frontend test to see if the page that will be show to user is in correct page or form or component and backend test to see if the data calculation is correct. In my last company we're hiring a tester to test the application. They test both FE and BE data.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+9. According to [freecodecamp](https://www.freecodecamp.org/news/how-to-write-a-good-readme-file/), readme should include
+   1. Project's Title
+   2. Project Description
+   3. Table of Contents (Optional)
+   4. How to Install and Run the Project
+   5. How to Use the Project
+   6. Include Credits
+   7. Add a License
