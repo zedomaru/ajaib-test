@@ -27,13 +27,13 @@ There are two parts of the test.
 
 2. Instance method, we need to create an instance from a class in order to use its method, but class / static method we don't have to create an instance, we can directly use the method inside class (Class.MethodName). Class method created by adding static keyword in front of the method name ex: static run()
    Example:
-   ![Inheritance](https://ibb.co/vHGsXZB)
+   ![Static vs Instance Method](https://i.ibb.co/Y3MD0pW/static-vs-instance-method.png)
 
-3. ![Inheritance](https://ibb.co/RTnKyGq)
+3. ![Inheritance](https://i.ibb.co/xqvbHKN/inheritance.png)
 
 4. Before ES6 or ES2015 we use constructor function to define a class. So if I want to refactor ES5 application I think we can change the constructor function to class with constructor function as it constructor.
 
-5. ![Closure](https://ibb.co/1m5CwHh)
+5. ![Closure](https://i.ibb.co/Js4YMX0/closure.png)
 
 6. I never did a testing before. But I heard about end to end testing using cypress and I'm curious about that.
 
